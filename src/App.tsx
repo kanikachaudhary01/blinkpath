@@ -1,15 +1,23 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Work from "./components/Work";
 
 const App = () => {
-  return (
-    <>
-    <div>
-      <Navbar/>
-      <Hero/>
-    </div>
-    </>
-  )
-}
+    return (
+        <>
+            <div>
+                <>
+                    <div className="bg-white">
+                        {" "}
+                        <Navbar />
+                        <Hero />
+                    </div>
+                </>
 
-export default App
+                <Work />
+            </div>
+        </>
+    );
+};
+
+export default App;
