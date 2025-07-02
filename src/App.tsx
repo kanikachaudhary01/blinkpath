@@ -7,7 +7,7 @@ const App = () => {
         <>
             <div>
                 <>
-                    <div className="bg-white">
+                    <div className="bg-[#E9E9E9]">
                         {" "}
                         <Navbar />
                         <Hero />

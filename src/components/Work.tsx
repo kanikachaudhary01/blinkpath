@@ -7,7 +7,7 @@ const Work = () => {
     
     return (
         <>
-            <div className="grid grid-cols-2 ">
+            <div className="grid grid-cols-2 z-0 absolute w-full">
                 <div className="mx-20 ">
                     <div className="text-3xl text-gray-600 tracking-tight font-bold mt-50">
                         • Our Work
@@ -22,7 +22,9 @@ const Work = () => {
 
                 <div className="text-orange-600 text-7xl flex justify-end mr-30 mt-140">
                     (01)
+                     
                 </div>
+              
                 <motion.div className="mt-20">
                     <video
                         autoPlay
@@ -30,7 +32,7 @@ const Work = () => {
                         loop
                         onMouseOver={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
-                        className={`w-full h-full object-cover transition-all duration-500 ease-in-out  ${
+                        className={`w-[200px] h-[200px]  object-cover transition-all duration-500 ease-in-out  ${
                             isHovered ? "rounded-full" : "rounded-none"
                         }`}
                         src={Blinkpath_HeaderReel}
