@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Work from "./components/Work";
 import Services from "./components/Services";
+import Approach from "./components/Approach";
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
 
                 <Work />
                 <Services/>
-               
+               <Approach/>
             </div>
         </>
     );
