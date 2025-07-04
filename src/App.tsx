@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Work from "./components/Work";
 import Services from "./components/Services";
 import Approach from "./components/Approach";
+import About from "./components/About";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
                 <Work />
                 <Services/>
                <Approach/>
+               <About/>
             </div>
         </>
     );

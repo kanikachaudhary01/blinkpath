@@ -10,12 +10,11 @@ const Services = () => {
     offset: ["start end", "end start"],
   });
 
-  // total horizontal distance = width of all cards
   const x = useTransform(scrollYProgress, [0, 1], ["70%", `-${(cardData.length - 1) * 100}%`]);
 
   return (
     <div className="w-full py-20 relative">
-      {/* Title Section */}
+   
       <div className="mx-20 w-1/2">
         <div className="text-3xl text-gray-600 tracking-tight font-bold mt-[50px]">
           • Our Services
@@ -33,7 +32,6 @@ const Services = () => {
 
       <div className="border border-b-gray-500 mx-30 rounded-2xl"></div>
 
-      {/* Scroll Section */}
       <div
         className="relative"
         style={{ height: `${cardData.length * 100}vh` }}
