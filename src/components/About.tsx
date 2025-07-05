@@ -1,8 +1,13 @@
 import AboutCard, { aboutData } from "./AboutCard";
+
 const About = () => {
+  
+    
     return (
         <>
-            <div className="bg-white h-scree">
+            <div className="bg-white"
+       
+            >
                 <div className="flex flex-row mx-20 ">
                     <div className="text-[4rem]">
                         Every engagement is different. Our approach
@@ -33,17 +38,17 @@ const About = () => {
                 </div>
                 <div className="mt-20">
                     <footer className="bg-[#FF3C00] text-white px-8 md:px-20 py-16">
-                        {/* Top section */}
+                       
                         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                             <div>
-                                <h2 className="text-3xl md:text-4xl font-semibold leading-snug text-white">
+                                <h2 className="text-4xl  tracking-wide text-white">
                                     What happens next usually{" "}
-                                    <br className="hidden md:block" />
+                                    <br  />
                                     starts with a conversation.
                                 </h2>
                                 <a
                                     href="mailto:hello@blinkpath.com"
-                                    className="text-black text-4xl md:text-5xl font-semibold mt-6 block"
+                                    className="text-black text-4xl md:text-5xl  mt-6 block"
                                 >
                                     hello@blinkpath.com
                                 </a>
@@ -56,12 +61,11 @@ const About = () => {
 
                         <hr className="my-12 border-white/30" />
 
-                        {/* Bottom section */}
                         <div className="flex flex-col md:flex-row justify-between text-sm md:text-base">
-                            <div className="flex items-center gap-2 font-semibold">
-                                <span className="rotate-45">➔</span>
+                            <div className="flex items-center gap-2 text-4xl">
+                                <span>➔</span>
                                 <div className="flex items-center gap-1">
-                                    <span className="w-2 h-2 bg-white rounded-full"></span>
+                                    <span className="w-6 h-6 bg-white rounded-full"></span>
                                     <span>Blinkpath</span>
                                 </div>
                             </div>
@@ -112,7 +116,7 @@ const About = () => {
                             </div>
                         </div>
 
-                        {/* Bottom line */}
+
                         <div className="flex justify-between mt-12 text-xs text-white/70">
                             <p>© 2025 Blinkpath. All rights reserved.</p>
                             <a href="#" className="underline">

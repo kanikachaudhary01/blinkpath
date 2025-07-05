@@ -10,7 +10,7 @@ const Services = () => {
     offset: ["start end", "end start"],
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["70%", `-${(cardData.length - 1) * 100}%`]);
+  const x = useTransform(scrollYProgress, [0, 1], ["70%", `-${(cardData.length - 1) * 40}%`]);
 
   return (
     <div className="w-full py-20 relative">
@@ -34,7 +34,7 @@ const Services = () => {
 
       <div
         className="relative"
-        style={{ height: `${cardData.length * 100}vh` }}
+        style={{ height: `${cardData.length * 50}vh` }}
         ref={targetRef}
       >
         <div className="sticky top-0 h-screen overflow-hidden">

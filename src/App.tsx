@@ -19,9 +19,13 @@ const App = () => {
                 </>
 
                 <Work />
-                <Services/>
+               <div>
+                 <Services/>
                <Approach/>
+               
+               </div>
                <About/>
+               
             </div>
         </>
     );

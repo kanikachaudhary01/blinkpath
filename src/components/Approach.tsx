@@ -14,7 +14,7 @@ const Approach = () => {
 
     return (
         <motion.div
-            className="bg-white w-full"
+            className="bg-white w-full rounded-t-4xl"
             ref={approachRef}
             style={{ y }}
         >
