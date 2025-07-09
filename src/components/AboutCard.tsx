@@ -42,14 +42,14 @@ export const aboutData: AboutData[] = [
 const AboutCard = ({ title, heading, subheading ,border}: AboutData) => {
   return (
     <>
-      <div className="flex flex-1/2 gap-50 mt-20">
+      <div className="flex flex-1/2 gap-50 mt-20 ">
         <div className="text-orange-600 text-4xl mt-10 ml-70 font-bold">{title}</div>
       <div>
         <div className="text-black text-5xl mt-8">{heading}</div>
-      <div className="text-[#9E9D9D] text-2xl mt-6 ">
+      <div className="text-[#9E9D9D] text-2xl mt-6 border-b border-gray-400 pb-10">
         {subheading}
       </div>
-      <div className="border mt-20 mx-30 rounded-2xl" >{border}</div>
+     
       </div>
       </div>
     </>

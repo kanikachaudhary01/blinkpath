@@ -5,27 +5,22 @@ import Services from "./components/Services";
 import Approach from "./components/Approach";
 import About from "./components/About";
 
-
 const App = () => {
     return (
         <>
             <div>
-                <>
-                    <div className="bg-[#E9E9E9]">
-                        {" "}
-                        <Navbar />
-                        <Hero />
-                    </div>
-                </>
-
+                <div className="bg-[#E9E9E9]">
+                    {" "}
+                    <Navbar />
+                    <Hero />
+                </div>
                 <Work />
-               <div>
-                 <Services/>
-               <Approach/>
+                <Services />
+                <div className="bg-white">
+                     <Approach />
+                </div>
                
-               </div>
-               <About/>
-               
+                <About/>
             </div>
         </>
     );
