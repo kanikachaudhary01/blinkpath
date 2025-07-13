@@ -30,7 +30,7 @@ const Hero = () => {
                 </div>
 
        
-                <div className="text-7xl tracking-wide mx-auto max-w-8xl pt-20 leading-[5rem] font-medium px-20">
+                <div className="text-7xl tracking-wide mx-auto max-w-8xl pt-20 leading-[5rem] font-medium px-20 sm:text-5xl md:text-6xl lg:text-7xl">
                     We’re a design studio for product and brand teams who mean
                     business.
                 </div>

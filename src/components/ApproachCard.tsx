@@ -14,9 +14,9 @@ export default function ApproachCard({
     return (
         <div className={`${bgColor} rounded-3xl px-20 py-10 sticky top-20 left-0 w-3/4 mx-auto h-96`}>
            
-                <div className="text-2xl font-bold">{title}</div>
-                <div className="text-7xl font-bold mt-2">{heading}</div>
-                <div className="text-3xl font-medium mt-6 ">{subheading}</div>
+                <div className="text-2xl ">{title}</div>
+                <div className="text-7xl  mt-2">{heading}</div>
+                <div className="text-3xl  mt-6 ">{subheading}</div>
             
         </div>
     );

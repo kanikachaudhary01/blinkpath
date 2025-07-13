@@ -45,19 +45,20 @@ const Approach = () => {
             >
                 <div className="mx-20 w-1/2">
                     <div className="text-3xl text-gray-600 tracking-tight font-bold pt-50">
-                        • Our Services
+                        • Our Approach          
                     </div>
                     <div className="text-black text-5xl mt-10">
-                        Whatever we take on, whether it’s a product, website, or
-                        brand, it’s never just for show. It’s designed to work
-                        hard, deliver real value, and never coast on aesthetics.
+                        Teams are different. Needs shift. And not every
+                        engagement looks the same. That’s why we shape our
+                        approach around how you work—and what you’re trying to
+                        achieve. Then we help you move it forward.
                     </div>
                 </div>
-                <div className="text-orange-600 text-7xl flex justify-end mr-30 pb-10">
+                <div className="text-orange-600 text-7xl flex justify-end mr-30 ">
                     (03)
                 </div>
             </motion.div>
-            <div className="flex flex-col gap-10 pt-[-50rem] bg-white">
+            <div className="flex flex-col gap-10  bg-white  ">
                 {approachCards.map((card, index) => (
                     <ApproachCard
                         key={index}
@@ -68,7 +69,6 @@ const Approach = () => {
                     />
                 ))}
             </div>
-            
         </>
     );
 };

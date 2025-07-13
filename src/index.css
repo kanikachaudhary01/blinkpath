@@ -1,6 +1,6 @@
 @import "tailwindcss";
 body {
-  font-family: sans-serif;
+  font-family: Aeonik, sans-serif;
   background: #1E1C1B;
 }
 .scroll-hide {

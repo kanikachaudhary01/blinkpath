@@ -4,6 +4,8 @@ import Work from "./components/Work";
 import Services from "./components/Services";
 import Approach from "./components/Approach";
 import About from "./components/About";
+import Marque from "./components/Marque";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
@@ -18,9 +20,10 @@ const App = () => {
                 <Services />
                 <div className="bg-white">
                      <Approach />
-                </div>
-               
+                </div>              
                 <About/>
+                <Marque/>
+                <Footer/>
             </div>
         </>
     );
