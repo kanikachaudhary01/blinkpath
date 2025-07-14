@@ -43,20 +43,25 @@ const Approach = () => {
                 ref={approachRef}
                 style={{ y }}
             >
-                <div className="mx-20 w-1/2">
-                    <div className="text-3xl text-gray-600 tracking-tight font-bold pt-50">
-                        • Our Approach          
+                <div className="w-full px-5 lg:px-20 mt-[50px]">
+                <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
+                    <div className="w-full lg:w-1/2 mt-30">
+                        <div className="text-gray-600 tracking-tight font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl">
+                            • Our Work
+                        </div>
+                        <div className="mt-6 sm:text-xl md:text-2xl lg:text-5xl">
+                            Global teams trust us to take on complex challenges,
+                            push creative boundaries, and move fast when it
+                            matters most. We bring clarity, momentum, and a
+                            little heat to every project.
+                        </div>
                     </div>
-                    <div className="text-black text-5xl mt-10">
-                        Teams are different. Needs shift. And not every
-                        engagement looks the same. That’s why we shape our
-                        approach around how you work—and what you’re trying to
-                        achieve. Then we help you move it forward.
+
+                    <div className="text-orange-600  sm:text-xl md:text-2xl lg:text-6xl self-start lg:self-end">
+                        (01)
                     </div>
                 </div>
-                <div className="text-orange-600 text-7xl flex justify-end mr-30 ">
-                    (03)
-                </div>
+            </div>
             </motion.div>
             <div className="flex flex-col gap-10  bg-white  ">
                 {approachCards.map((card, index) => (
